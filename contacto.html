@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JCEE</title>
+  </head>
+  <body>
+    <h1>Contacto</h1>
+    <p>Envíe tus datos y nos pondremos en contacto con usted en un plazo de 24 horas.</p>
+    <form class="contact-form">
+      <label for="">Nombre</label><br />
+      <input class="name" type="text" placeholder="Nombre y Apellido" required minlength="10" maxlength="50" /><br />
+      <label for="">Email</label><br />
+      <input class="email" type="email" placeholder="Email" required minlength="10" maxlength="50" /><br />
+      <label for="">Telefono</label><br />
+      <input class="telefono" type="tel" placeholder="(Código de área) Número" required minlength="10" maxlength="13" /><br />
+      <label for="">Trabajo que necesita</label><br />
+      <textarea
+        class="message"
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Descripción"
+      ></textarea
+      ><br />
+      <button type="submit">Enviar</button>
+
+    </form>
+
+    <div class="input-contenedor" style="text-align: center; color: aliceblue;">
+
+      <a class="link" href="index.html" style="color: #a09767; font-size: 25px;"> <-- Home</a></p>
+  </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+    <script src="main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
